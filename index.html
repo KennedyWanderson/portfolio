@@ -10,26 +10,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Kennedy Wanderson</title>
+
+    
+
 </head>
 
 <body>
     <div class="caixa-principal" id="home">
         <nav>
-            <h2 class="portfolio">Portfo<span>lio</span></h2>
-            <ul>
-                <li><a style="text-decoration: none;" href="#">Home</a></li>
-                <li><a style="text-decoration: none;" href="#sobre">Sobre</a></li>
-                <li><a style="text-decoration: none;" href="#id-projetos">Projetos</a></li>
-                <li><a style="text-decoration: none;" href="#fale-comigo">Fale Comigo</a></li>
+            <h2 class="portfolio">Portfol<span>io</span></h2>
+            <ul id="menuList">
+                <li class="nav-li"><a style="text-decoration: none;" href="#">Home</a></li>
+                <li class="nav-li"><a style="text-decoration: none;" href="#sobre">Sobre</a></li>
+                <li class="nav-li"><a style="text-decoration: none;" href="#id-projetos">Projetos</a></li>
+                <li class="nav-li"><a style="text-decoration: none;" href="#fale-comigo">Fale Comigo</a></li>
 
             </ul>
         </nav>
+
+        
+
+
 
         <div class="eu">
             <h3>Kennedy <span>Wanderson</span></h3>
             <h1>Programador Front-End</h1>
         </div>
     </div>
+    
 
     <section id="sobre">
         <img src="./img/eu.png">
@@ -43,24 +51,6 @@
         </div>
     </section>
 
-    <div class="projetos" id="id-projetos">
-        <h2>Principais Projetos</h2>
-
-        <div class="teste">
-
-            <div class="card">
-                <img src="./img/netflix.png">
-                <h5>Netflix</h5>
-                <p>Projeto recriando a interface da Netflix. Clique para visualizar.</p>
-                <a href="" target="_blank">Ver Projeto</a>
-
-            </div>
-
-        </div>
-
-
-
-    </div>
 
     <footer id="fale-comigo">
         <h5>Kennedy Wanderson</h5>
@@ -75,5 +65,20 @@
     </footer>
 
 </body>
+
+<script>
+    const menuList = document.getElementById("menuist")
+    menuList.style.maxHeight = "0px"
+
+    function showMenu(){
+        if(menuList.style.maxHeight == "0px"){
+            menuList.style.maxHeight = "120px"
+        }
+        else{
+            menuList.style.maxHeight = "0"
+        }
+    }
+
+</script>
 
 </html>

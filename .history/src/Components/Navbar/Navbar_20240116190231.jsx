@@ -15,9 +15,7 @@ const Navbar = () => {
                         <li className="hover:text-orange-500">Projects</li>
                     </ul>
                 </div>
-                <button className=" rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
-                hover:cursor-grab bg-white hover:text-orange-500
-                ">Contact</button>
+                <button className=" rounded-3xl	border-none	text-white text-base ">Contact</button>
             </div>
         </div>
     )

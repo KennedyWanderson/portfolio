@@ -12,12 +12,10 @@ const Navbar = () => {
                     <ul className="flex gap-8 mr-32 hover:cursor-grab">
                         <li className="hover:text-orange-500">Home</li>
                         <li className="hover:text-orange-500">About</li>
-                        <li className="hover:text-orange-500">Projects</li>
+                        <li>Projects</li>
                     </ul>
                 </div>
-                <button className=" rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
-                hover:cursor-grab bg-white hover:text-orange-500
-                ">Contact</button>
+                <button>Contact</button>
             </div>
         </div>
     )

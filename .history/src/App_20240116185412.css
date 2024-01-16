@@ -21,13 +21,7 @@
     color: var(--black);    
 }
 
-.button{
-  border-radius: 34px;
-  border: none;
-  color: white;
-  font-size: 16px;
-  padding: 10px;
-}
+.button
 
 
   

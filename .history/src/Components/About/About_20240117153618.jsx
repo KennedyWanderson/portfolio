@@ -11,7 +11,7 @@ import Vector2 from '../../img/Vector2.png'
 
 const About = () => {
     return (
-        <div className="flex h-[77vh] my-20">
+        <div className="flex h-[77vh] my-24">
             <div className="flex flex-col relative flex-1 gap-8">
                 <div className="flex flex-col">
                     <span className="text-black font-bold text-5xl">Hi! I am</span>

@@ -11,7 +11,7 @@ import Vector2 from '../../img/Vector2.png'
 
 const About = () => {
     return (
-        <div className="flex h-[77vh] my-20">
+        <div className="flex h-[77vh] my-24">
             <div className="flex flex-col relative flex-1 gap-8">
                 <div className="flex flex-col">
                     <span className="text-black font-bold text-5xl">Hi! I am</span>
@@ -21,7 +21,7 @@ const About = () => {
                 </div>
                 <button className="rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
                 hover:cursor-grab bg-white hover:text-orange-500 w-28 h-8 flex justify-center items-center">Hire me</button>
-                <div className="mt-8 flex gap-8 hover:cursor-grab">
+                <div className="mt-8 flex gap-24 scale- hover:cursor-grab">
                     <a href="https://github.com/KennedyWanderson">
                         <img src={Github} alt="" />
                     </a>

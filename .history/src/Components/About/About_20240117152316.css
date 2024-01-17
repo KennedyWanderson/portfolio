@@ -1,0 +1,9 @@
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: ;
+}

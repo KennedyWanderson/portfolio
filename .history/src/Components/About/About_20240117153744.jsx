@@ -36,7 +36,6 @@ const About = () => {
             <div className="i-right">
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
-                <img src={Profile} alt="" />
             </div>
         </div>
     )

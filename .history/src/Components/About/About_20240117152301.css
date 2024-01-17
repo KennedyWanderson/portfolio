@@ -1,0 +1,6 @@
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*

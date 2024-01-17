@@ -32,10 +32,10 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            <div className="flex-1 relative">
-                <div className="z-[1] absolute bg-gray-300 rounded-2xl left-1/4 ">
-                    <img className="scale-145 " src={Profile} alt="" />
-                </div>
+            <div className="flex-1 z-[1] absolute">
+                    <img className="scale-75 left-neg-15 top-neg-9" src={Vector1} alt="" />
+                    <img className="scale-75 top-neg-4.6rem left-neg-3" src={Vector2} alt="" />
+                    <img className="scale-145 left-28" src={Profile} alt="" />
             </div>
         </div>
     )

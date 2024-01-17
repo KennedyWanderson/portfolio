@@ -3,15 +3,11 @@ import Github from '../../img/github.png'
 import Instagram from '../../img/instagram.png'
 import Linkedin from '../../img/linkedin.png'
 import Profile from '../../img/eu.png'
-import Vector1 from '../../img/Vector1.png'
-import Vector2 from '../../img/Vector2.png'
-
-
 
 const About = () => {
-    return (
+    return(
         <div className="flex h-[77vh] my-24">
-            <div className="flex flex-col relative flex-1 gap-8">
+            <div className="flex flex-col relative flex-1 gap-">
                 <div className="flex flex-col">
                     <span className="text-black font-bold text-5xl">Hi! I am</span>
                     <span className="text-violet-500 font-bold text-5xl">Kennedy Wanderson</span>
@@ -32,10 +28,8 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            <div className="flex-1 relative">
-                <div className="z-[1] absolute bg-gray-300 rounded-2xl left-1/4 ">
-                    <img className="scale-145 " src={Profile} alt="" />
-                </div>
+            <div className="flex-1 relative z-1">
+                <img src={Profile} alt="" />
             </div>
         </div>
     )

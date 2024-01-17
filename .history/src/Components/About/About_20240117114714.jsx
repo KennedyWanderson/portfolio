@@ -33,7 +33,7 @@ const About = () => {
                 </div>
             </div>
             <div className="flex-1 relative">
-                <div className="z-[1] absolute bg-gray-300 rounded-2xl left-1/4 ">
+                <div className="z-[1] absolute -left-1.5 ">
                     <img className="scale-145 " src={Profile} alt="" />
                 </div>
             </div>

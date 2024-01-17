@@ -4,12 +4,12 @@ import Instagram from '../../img/instagram.png'
 import Linkedin from '../../img/linkedin.png'
 import Profile from '../../img/eu.png'
 import Vector1 from '../../img/Vector1.png'
-import Vector2 from '../../img/Vector2.png'
+import Vector2 from '../../img/Vector1.png'
 
 
 
 const About = () => {
-    return (
+    return(
         <div className="flex h-[77vh] my-24">
             <div className="flex flex-col relative flex-1 gap-8">
                 <div className="flex flex-col">
@@ -33,7 +33,7 @@ const About = () => {
                 </div>
             </div>
             <div className="flex-1 relative">
-                <div className="z-[1] absolute bg-gray-300 rounded-2xl left-1/4 ">
+                <div className="z-1 absolute left-28">
                     <img className="scale-145 " src={Profile} alt="" />
                 </div>
             </div>

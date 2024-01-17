@@ -33,8 +33,17 @@ const About = () => {
                 </div>
             </div>
             <div className="flex-1 relative">
-                <div className="z-[1] absolute bg-gray-300 rounded-2xl left-1/4 ">
-                    <img className="scale-145 " src={Profile} alt="" />
+                <div className="z-1 absolute ">
+                    <div className="scale-75 left-neg-15 top-neg-9">
+                        <img  src={Vector1} alt="" />
+                    </div>
+                    <div className="scale-75 top-neg-4.6rem left-neg-3">
+                        <img  src={Vector2} alt="" />
+                    </div>
+                    <div>
+                        <img className="scale-145 left-28" src={Profile} alt="" />
+
+                    </div>
                 </div>
             </div>
         </div>

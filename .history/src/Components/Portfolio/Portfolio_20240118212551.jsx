@@ -3,7 +3,6 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import Admin from '../../img/admin.jpeg'
 import Movie from '../../img/movie.jpeg'
-import Netflix from '../../img/netflix.jpeg'
 
 const Portfolio = () => {
     return(
@@ -14,17 +13,17 @@ const Portfolio = () => {
             <Swiper spaceBetween={30}
             slidesPerView={3}
             grabCursor={true}
-            className="overflow-visible w-full mt-12">
-                <SwiperSlide className="w-80 p-2">
+            className="overflow-visible w-full p-20 mt-12">
+                <SwiperSlide className="w-80 p-1">
                     <img className="w-72 drop-shadow-xl rounded-2xl"  src={Admin} alt="" />
                 </SwiperSlide>
-                <SwiperSlide className="w-80 p-2">
+                <SwiperSlide className="w-80">
                     <img className="w-72 drop-shadow-xl rounded-2xl" src={Movie} alt="" />
                 </SwiperSlide>
-                <SwiperSlide className="w-80 p-2">
-                    <img className="w-72 drop-shadow-xl rounded-2xl"  src={Netflix} alt="" />
+                <SwiperSlide className="w-80">
+                    <img className="w-72 drop-shadow-xl rounded-2xl"  src={Admin} alt="" />
                 </SwiperSlide>
-                <SwiperSlide className="w-80 p-2">
+                <SwiperSlide className="w-80">
                     <img className="w-72 drop-shadow-xl rounded-2xl" src={Movie} alt="" />
                 </SwiperSlide>
             </Swiper>

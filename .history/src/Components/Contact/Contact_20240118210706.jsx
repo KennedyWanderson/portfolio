@@ -36,7 +36,7 @@ const Contact = () => {
                     <textarea  name="message" className="h-16 w-80 p-2 outline-none border-2 border-violet-500 rounded-lg text-base" placeholder="Message" />
                     <input type="submit" value="Send" className="rounded-3xl border-none text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
                     hover:cursor-grab bg-white hover:text-orange-500 w-32 mt-4" />
-                    <span className="text-green-500 font-bold text-xl">{done && "Thanks for contacting me!"}</span>
+                    <span className="text-green-500 font-bold text-xl">{done && "Thanks for contactin me!"}</span>
                 </form>
             </div>
         </div>

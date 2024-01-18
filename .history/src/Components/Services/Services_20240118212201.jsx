@@ -28,6 +28,11 @@ const Services = () => {
                         heading={'Skills'}
                         detail={'React, JavaScript, TypeScript'}
                     />
+                    <Card
+                        emoji={}
+                        heading={'Skills'}
+                        detail={'React, JavaScript, TypeScript'}
+                    />
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ import Resume from './Kennedy_CV.pdf'
 
 const Services = () => {
     return (
-        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh]  mt-36">
+        <div className="pt-0 pb- pr-3 pl-12 flex h-[90vh]  mt-36">
             <div className="flex flex-col relative">
                 <span className="text-black text-4xl font-bold">My Awesome</span>
                 <span className="text-violet-500 font-bold text-5xl">services</span>

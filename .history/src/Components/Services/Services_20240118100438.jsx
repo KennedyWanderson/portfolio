@@ -2,7 +2,6 @@ import React from "react";
 import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glassesimoji.png'
 import Humble from '../../img/humble.png'
-import Card from "../Card/Card";
 
 const Services = () => {
     return(
@@ -18,14 +17,8 @@ const Services = () => {
                 <button className="rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
                 hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
             </div>
-            <div className="relative">
-                <div className="left-56 absolute">
-                    <Card 
-                    emoji={HeartEmoji}
-                    heading={'Skills'}
-                    detail={'React, JavaScript, TypeScript'}
-                    />
-                </div>
+            <div>
+                teste
             </div>
         </div>
     )

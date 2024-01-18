@@ -19,7 +19,7 @@ const Services = () => {
                 hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
             </div>
             <div className="relative">
-                <div className="left-56 absolute">
+                <div className="left-56">
                     <Card 
                     emoji={HeartEmoji}
                     heading={'Skills'}

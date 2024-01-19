@@ -1,0 +1,21 @@
+import React from "react";
+import Wave from '../../img/wave.png'
+import Insta from '@iconscout/react-unicons/icons/uil-instagram'
+import Insta from '@iconscout/react-unicons/icons/uil-gi'
+import Insta from '@iconscout/react-unicons/icons/uil-instagram'
+
+const Footer = () => {
+    return(
+        <div>
+            <img src={Wave} alt="" style={{width: '100%'}} />
+            <div>
+                <span>devprogrammer.wiz@gmail.com</span>
+                <div>
+                    <Insta />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Footer;

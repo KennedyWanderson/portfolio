@@ -13,7 +13,7 @@ const Services = () => {
 
     return (
 
-        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 " id="About">
+        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 lg:mt-0 lg:flex lg:flex-row flex-col gap-20 h-[66]" id="About">
             <div className="flex flex-col relative">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My Awesome</span>
                 <span className="text-violet-500 font-bold text-5xl">services</span>
@@ -27,8 +27,8 @@ const Services = () => {
                     hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
                 </a>
             </div>
-            <div className="relative sm:flex lg:block cards gap-17rem">
-                <div className="left-56 absolute sm:static lg:absolute">
+            <div className="relative">
+                <div className="left-56 absolute">
                     <Card
                         emoji={HeartEmoji}
                         heading={'Skills'}

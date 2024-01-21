@@ -19,9 +19,9 @@ const About = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="lg:flex lg:flex-row flex-col h-[77vh] my-20 ">
+        <div className="flex h-[77vh] my-20 ">
             <div className="flex flex-col relative flex-1 gap-8">
-                <div className="flex flex-col ">
+                <div className="flex flex-col lg">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-5xl">Hi! I am</span>
                     <span className="text-violet-500 font-bold text-5xl">Kennedy Wanderson</span>
                     <span>Frontend Developer with high level of experience
@@ -41,7 +41,7 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            <div className="i-right lg:flex lg:justify-end">
+            <div className="i-right">
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={Profile} alt="" />

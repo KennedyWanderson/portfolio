@@ -12,18 +12,17 @@ const Services = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-
-        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 " id="About">
-            <div className="flex flex-col relative">
+        <div className="sm:flex-col lg:flex-row flex-col gap-20 h-[90vh] mt-10 lg:mt-0">
+            <div className="sm:flex lg:block services gap-5rem h-66rem">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My Awesome</span>
                 <span className="text-violet-500 font-bold text-5xl">services</span>
-                <spane style={{ color: darkMode ? 'white' : '' }} className="text-gray-600 text-sm mt-4">Lorem ispum is simpley dummy text of printing of printing Lorem
+                <span style={{ color: darkMode ? 'white' : '' }} className="text-gray-600 text-sm mt-4">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s.
 
                     <br />
-                    ispum is simpley dummy text of printing
-                </spane>
+                    Lorem ipsum is simply dummy text of the printing and typesetting industry.
+                </span>
                 <a href={Resume} download>
-                    <button className="rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
+                    <button className="rounded-3xl border-none text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
                     hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
                 </a>
             </div>
@@ -39,21 +38,9 @@ const Services = () => {
                     initial={{ rotate: 45 }}
                     whileInView={{ rotate: 0 }}
                     viewport={{ margin: '-40px' }}
-                    transition={{ duration: 3.5, type: 'spriing' }}
+                    transition={{ duration: 3.5, type: 'spring' }}
                 >
-                    <div>
-                        <img src={ReactIimg} alt="" />
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-
+                    {/* Conteúdo do bloco de rotação aqui */}
                 </motion.div>
             </div>
         </div>

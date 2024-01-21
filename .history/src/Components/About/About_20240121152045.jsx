@@ -43,7 +43,7 @@ const About = () => {
             </div>
             <div className="i-right lg:flex lg:justify-end">
                 <img src={Vector1} alt="" />
-                <img src={Vector2} alt="" />
+                {/* <img src={Vector2} alt="" /> */}
                 <img className="rounded-full" src={Profile} alt="" />
                 <motion.img
                 initial={{left: '-46%'}}

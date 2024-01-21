@@ -42,9 +42,9 @@ const About = () => {
                 </div>
             </div>
             <div className="i-right lg:flex lg:justify-end">
-                <img src={Vector1} alt="" />
+                {/* <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
-                <img className="rounded-full" src={Profile} alt="" />
+                <img src={Profile} alt="" /> */}
                 <motion.img
                 initial={{left: '-46%'}}
                 whileInView={{left: '-14%'}}

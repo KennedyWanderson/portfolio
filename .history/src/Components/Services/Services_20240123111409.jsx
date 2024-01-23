@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import HeartEmoji from '../../img/heartemoji.png'
 import Card from "../Card/Card";
 import Resume from './Kennedy_CV.pdf'
-import './Services.css'
 import { themeContext } from "../../Context";
 import { motion } from 'framer-motion'
 import ReactIimg from '@iconscout/react-unicons/icons/uil-react'
@@ -14,7 +13,7 @@ const Services = () => {
 
     return (
 
-        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 services" id="About">
+        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 lg:mt-0 flex-col gap-5 h-[66rem] p-0" id="About">
             <div className="flex flex-col relative">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My Awesome</span>
                 <span className="text-violet-500 font-bold text-5xl">services</span>
@@ -28,7 +27,7 @@ const Services = () => {
                     hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
                 </a>
             </div>
-            <div className="relative sm:flex lg:block cards gap-17rem">
+            <div className="relative sm:flex lg:flex flex-col cards gap-17rem">
                 <div className="left-56 absolute sm:static lg:absolute">
                     <Card
                         emoji={HeartEmoji}

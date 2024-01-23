@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import HeartEmoji from '../../img/heartemoji.png'
 import Card from "../Card/Card";
 import Resume from './Kennedy_CV.pdf'
-import './Services.css'
+import './\\ser'
 import { themeContext } from "../../Context";
 import { motion } from 'framer-motion'
 import ReactIimg from '@iconscout/react-unicons/icons/uil-react'

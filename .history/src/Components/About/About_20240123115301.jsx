@@ -19,8 +19,8 @@ const About = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="lg:flex lg:flex-row flex-col h-[77vh] my-20 ">
-            <div className="flex flex-col relative flex-1 gap-8">
+        <div className="lg:flex lg:flex-row flex-col h-[64rem] my-20 lg: flex-col gap-7rem h-64rem">
+            <div className="flex flex-col relative flex-1 gap-8 ">
                 <div className="flex flex-col ">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-5xl">Hi! I am</span>
                     <span className="text-violet-500 font-bold text-5xl">Kennedy Wanderson</span>

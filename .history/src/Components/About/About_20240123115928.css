@@ -1,0 +1,32 @@
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+    transform: scale(1.2);
+    left: -5%;
+    top: -9%;
+}
+    .i-right>:nth-child(2){
+        top: -4.6%;
+        transform: scale(1.2);
+        left: 3rem;
+    }
+    .i-right>:nth-child(3){
+    transform: scale(1.0);
+    left: 28%;
+}   
+
+@media screen and (max-width: 480px){
+    .i-right{
+        dis
+        transform: scale(0.8);
+        left: -1rem;
+    }
+}

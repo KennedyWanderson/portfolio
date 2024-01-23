@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import HeartEmoji from '../../img/heartemoji.png'
 import Card from "../Card/Card";
 import Resume from './Kennedy_CV.pdf'
-import './Services.css'
 import { themeContext } from "../../Context";
 import { motion } from 'framer-motion'
 import ReactIimg from '@iconscout/react-unicons/icons/uil-react'
@@ -28,7 +27,7 @@ const Services = () => {
                     hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
                 </a>
             </div>
-            <div className="relative sm:flex lg:block cards gap-17rem">
+            <div className="relative cards sm:flex lg:block cards gap-17rem">
                 <div className="left-56 absolute sm:static lg:absolute">
                     <Card
                         emoji={HeartEmoji}

@@ -31,26 +31,21 @@
   }
 
   .left{
-
-    margin-bottom: 50px;
-    gap: 4rem;
+    margin-bottom: 100px;
   }
 
   .i-right>:nth-child(1){
     transform: scale(0.8);
-    left: 0%;
-    top: 0%;
+    left: -5%;
+    top: -9%;
 }
-    .i-right>:nth-child(2){
+    .i-right>:nt-child(2){
+    
         transform: scale(0.8);
-        left: 0rem;
+        left: 3rem;
     }
     .i-right>:nth-child(3){
-    transform: scale(0.6);
+    transform: scale(0.7);
     left: 0%;
-    
 } 
-.i-right>:nth-child(4){
-    transform: scale(0.5);
-}
 }

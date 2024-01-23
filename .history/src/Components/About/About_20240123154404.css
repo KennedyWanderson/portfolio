@@ -24,33 +24,14 @@
 }   
 
 @media screen and (max-width: 480px){
-    .about {
+    .Intro {
     flex-direction: column;
-    gap: 8rem;
-    height: 50rem;
+    gap: 7rem;
+    height: 64rem;
   }
 
-  .left{
-
-    margin-bottom: 50px;
-    gap: 4rem;
-  }
-
-  .i-right>:nth-child(1){
+  .i-right {
     transform: scale(0.8);
-    left: 0%;
-    top: 0%;
-}
-    .i-right>:nth-child(2){
-        transform: scale(0.8);
-        left: 0rem;
-    }
-    .i-right>:nth-child(3){
-    transform: scale(0.6);
-    left: 0%;
-    
-} 
-.i-right>:nth-child(4){
-    transform: scale(0.5);
-}
+    left: -3rem;
+  }
 }

@@ -31,26 +31,14 @@
   }
 
   .left{
-
-    margin-bottom: 50px;
-    gap: 4rem;
+    margin-bottom: 100px;
   }
 
-  .i-right>:nth-child(1){
+  .i-right {
+    display: flex;
+    align-items: ;
     transform: scale(0.8);
-    left: 0%;
-    top: 0%;
-}
-    .i-right>:nth-child(2){
-        transform: scale(0.8);
-        left: 0rem;
-    }
-    .i-right>:nth-child(3){
-    transform: scale(0.6);
-    left: 0%;
+    left: -1rem;
     
-} 
-.i-right>:nth-child(4){
-    transform: scale(0.5);
-}
+  }
 }

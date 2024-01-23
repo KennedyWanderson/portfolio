@@ -19,7 +19,7 @@ const About = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="lg:flex lg:flex-row flex-col h-[77vh] my-20 about">
+        <div className="lg:flex flex-col h-64 lg:gap-56 lg:flex-row flex-col h-[77vh] my-20 ">
             <div className="flex flex-col relative flex-1 gap-8">
                 <div className="flex flex-col ">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-5xl">Hi! I am</span>
@@ -29,7 +29,7 @@ const About = () => {
                 </div>
                 <button className="rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
                 hover:cursor-grab bg-white hover:text-orange-500 w-28 h-8 flex justify-center items-center">Hire me</button>
-                <div className="mt-6 flex gap-7 hover:cursor-grab left">
+                <div className="mt-6 flex gap-7 hover:cursor-grab">
                     <a href="https://github.com/KennedyWanderson">
                         <img src={Github} alt="" />
                     </a>

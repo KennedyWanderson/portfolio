@@ -1,0 +1,78 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+.button{
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  .App {
+      padding: 0.5rem 1rem;
+  }
+
+  /* Estilos para cards responsivos */
+  .card {
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+
+  /* Estilos para formulários responsivos */
+  form {
+      max-width: 100%;
+      width: 100%;
+  }
+
+  input, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+  }
+
+  /* Estilos para rodapé responsivo */
+  footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f0f0f0;
+  }
+
+  /* Adicione outros estilos responsivos conforme necessário */
+}
+
+
+  
+
+  

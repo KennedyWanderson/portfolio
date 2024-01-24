@@ -24,13 +24,13 @@ const Portfolio = () => {
                     <img className="w-72 drop-shadow-xl rounded-2xl"  src={Admin} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="w-80 p-2">
-                    <img className="w-72 drop-shadow-xl rounded-2xl" src={Burguer} alt="" />
+                    <img className="w-72 drop-shadow-xl rounded-2xl" src={Movie} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="w-80 p-2">
                     <img className="w-72 drop-shadow-xl rounded-2xl"  src={Netflix} alt="" />
                 </SwiperSlide>
                 <SwiperSlide className="w-80 p-2">
-                    <img className="w-72 drop-shadow-xl rounded-2xl" src={Movie} alt="" />
+                    <img className="w-72 drop-shadow-xl rounded-2xl" src={Burguer} alt="" />
                 </SwiperSlide>
             </Swiper>
         </div>

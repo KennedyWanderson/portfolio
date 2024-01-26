@@ -32,7 +32,7 @@ const Services = () => {
                 </a>
             </div>
             <div className="relative sm:flex lg:block cards gap-17rem">
-                <div className=" left-56 absolute sm:static lg:absolute">
+                <div className="flex left-56 absolute sm:static lg:absolute">
                     <Card
                         emoji={HeartEmoji}
                         heading={'Skills'}

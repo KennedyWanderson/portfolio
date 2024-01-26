@@ -6,9 +6,6 @@ import './Services.css'
 import { themeContext } from "../../Context";
 import { motion } from 'framer-motion'
 import ReactIimg from '../../img/react.svg'
-import HtmlImg from '../../img/html5.svg'
-import CssImg from '../../img/css3-alt.svg'
-import JavaImg from '../../img/js.svg'
 
 const Services = () => {
 
@@ -19,8 +16,8 @@ const Services = () => {
 
         <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 services" id="About">
             <div className="flex flex-col relative">
-                <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My </span>
-                <span className="text-violet-500 font-bold text-5xl">Skills</span>
+                <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My Awesome</span>
+                <span className="text-violet-500 font-bold text-5xl">services</span>
                 <spane style={{ color: darkMode ? 'white' : '' }} className="text-gray-600 text-sm mt-4">Lorem ispum is simpley dummy text of printing of printing Lorem
 
                     <br />
@@ -32,11 +29,11 @@ const Services = () => {
                 </a>
             </div>
             <div className="relative sm:flex lg:block cards gap-17rem">
-                <div className=" left-56 absolute sm:static lg:absolute">
+                <div className="left-56 absolute sm:static lg:absolute">
                     <Card
                         emoji={HeartEmoji}
                         heading={'Skills'}
-                        detail={[HtmlImg, CssImg, JavaImg, ReactIimg]}      
+                        detail={ReactIimg, Rea}
                     />
                 </div>
                 <motion.div
@@ -46,7 +43,7 @@ const Services = () => {
                     transition={{ duration: 3.5, type: 'spriing' }}
                 >
                     <div>
-                        <img src={[ReactIimg, ReactIimg]} alt="" />
+                        <img src={ReactIimg} alt="" />
                     </div>
                     <div>
 

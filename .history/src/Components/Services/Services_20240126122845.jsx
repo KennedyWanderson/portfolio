@@ -31,7 +31,7 @@ const Services = () => {
                     hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
                 </a>
             </div>
-            <div className="relative sm:flex lg:block cards gap-17rem">
+            <div className="flex relative sm:flex lg:block cards gap-17rem">
                 <div className=" left-56 absolute sm:static lg:absolute">
                     <Card
                         emoji={HeartEmoji}

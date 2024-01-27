@@ -23,7 +23,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="m-3 pt-0 pr-4 pb-0 pl-4 md:pr-12 md:pl-12 mt-16 flex flex-col justify-center md:flex-row h-[80vh]">
+        <div className="m-3 pt-0 pr-4 pb-0 pl-4 md:pr-12 md:pl-12 mt-16 flex flex-col item md:flex-row h-[80vh]">
             <div className="md:mr-8">
                 <div className="flex flex-col">
                     <span style={{ color: darkMode ? 'white' : '' }} className="text-black font-bold text-4xl">Get in touch</span>

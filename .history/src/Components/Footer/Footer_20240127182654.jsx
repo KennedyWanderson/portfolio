@@ -8,7 +8,7 @@ const Footer = () => {
     return(
         <div className=" flex items-center mt-[-0.5rem] mb-[-3.5rem] relative">
             <img src={Wave} alt="" className="w-full h-52"/>
-            <div className=" flex flex-col items-center justify-center absolute w-full mt-16 gap-8  text-white">
+            <div className=" flex flex-col items-center justify-center absolute w-full mt-16 gap-12  text-white">
                 <span className="">devprogrammer.wiz@gmail.com</span>
                 <div className="flex gap-8">
                     <Insta color='white' size='3rem' />

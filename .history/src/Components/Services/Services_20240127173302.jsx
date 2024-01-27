@@ -15,16 +15,14 @@ const Services = () => {
 
     return (
 
-        <div className="pt-10 pb-12 pr-3 pl-12 flex h-[90vh] mt-20 services" id="About">
-            <div className="flex flex-col relative mt-10">
+        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-20 services" id="About">
+            <div className="flex flex-col relative">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My </span>
                 <span className="text-violet-500 font-bold text-5xl">Skills</span>
-                <spane style={{ color: darkMode ? 'white' : '' }} className="text-gray-600 text-sm mt-4">Analyst and Developer with experience in programming, development of web systems. 
+                <spane style={{ color: darkMode ? 'white' : '' }} className="text-gray-600 text-sm mt-4">Lorem ispum is simpley dummy text of printing of printing Lorem
 
                     <br />
-                    In addition, I have invested in myself to improve the quality of solving problems
-                    <br />
-                      in my projects.
+                    ispum is simpley dummy text of printing
                 </spane>
                 <a href={Resume} download>
                     <button className="rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
@@ -40,7 +38,26 @@ const Services = () => {
                         
                     />
                 </div>
+                <motion.div
+                    initial={{ rotate: 45 }}
+                    whileInView={{ rotate: 0 }}
+                    viewport={{ margin: '-40px' }}
+                    transition={{ duration: 3.5, type: 'spriing' }}
+                >
+                    <div>
+                        <img src={[ReactIimg, ReactIimg]} alt="" />
+                    </div>
+                    <div>
 
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+
+                </motion.div>
             </div>
         </div>
     )

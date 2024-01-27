@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
     return(
-        <div className="lg:flex m-3 pt-0 pr-12 pb-0 pl-12 mt-16 flex h-[80vh]">
+        <div className=" m-3 pt-0 pr-12 pb-0 pl-12 mt-16 flex h-[80vh]">
             <div>
                 <div className="flex flex-col">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-4xl">Get in touch</span>
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
 
             <div className="flex justify-center relative">
-                <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-8 items-center ml-64" action="">
+                <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-8 items-center" action="">
                     <input type="text" name="user_name" className=" w-80 h-8 p-2 outline-none border-2 border-violet-500 rounded-lg text-base" placeholder="Name" />
                     <input type="email" name="user_email" className="w-80 h-8 p-2 outline-none border-2 border-violet-500 rounded-lg text-base" placeholder="Email" />
                     <textarea  name="message" className="h-16 w-80 p-2 outline-none border-2 border-violet-500 rounded-lg text-base" placeholder="Message" />

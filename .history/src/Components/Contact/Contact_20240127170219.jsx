@@ -33,8 +33,8 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center relative">
-                <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-8 items-center ml-64" action="">
+            <div className="flex justify- relative">
+                <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-8 items-center" action="">
                     <input type="text" name="user_name" className=" w-80 h-8 p-2 outline-none border-2 border-violet-500 rounded-lg text-base" placeholder="Name" />
                     <input type="email" name="user_email" className="w-80 h-8 p-2 outline-none border-2 border-violet-500 rounded-lg text-base" placeholder="Email" />
                     <textarea  name="message" className="h-16 w-80 p-2 outline-none border-2 border-violet-500 rounded-lg text-base" placeholder="Message" />

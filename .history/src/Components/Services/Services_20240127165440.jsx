@@ -7,6 +7,8 @@ import { themeContext } from "../../Context";
 import { motion } from 'framer-motion'
 import ReactIimg from '../../img/react.svg'
 import HtmlImg from '../../img/html5.svg'
+import CssImg from '../../img/css3-alt.svg'
+import JavaImg from '../../img/js.svg'
 
 const Services = () => {
 
@@ -15,7 +17,7 @@ const Services = () => {
 
     return (
 
-        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-20 services" id="About">
+        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 services" id="About">
             <div className="flex flex-col relative">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My </span>
                 <span className="text-violet-500 font-bold text-5xl">Skills</span>
@@ -30,12 +32,16 @@ const Services = () => {
                 </a>
             </div>
             <div className="relative sm:flex lg:block cards gap-17rem">
-                <div className="left-56 absolute sm:static lg:absolute">
+                <div className=" left-56 absolute sm:static lg:absolute">
                     <Card
                         emoji={HeartEmoji}
                         heading={'Skills'}
-                        detail={[ReactIimg, HtmlImg]}
-                        
+                        detail={[HtmlImg, CssImg, JavaImg, ReactIimg]}      
+                    />
+                                       <Card
+                        emoji={HeartEmoji}
+                        heading={'Skills'}
+                        detail={[HtmlImg, CssImg, JavaImg, ReactIimg]}      
                     />
                 </div>
                 <motion.div

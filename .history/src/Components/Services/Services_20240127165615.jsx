@@ -15,7 +15,7 @@ const Services = () => {
 
     return (
 
-        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-20 services" id="About">
+        <div className="pt-0 pb-12 pr-3 pl-12 flex h-[90vh] mt-10 services" id="About">
             <div className="flex flex-col relative">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My </span>
                 <span className="text-violet-500 font-bold text-5xl">Skills</span>

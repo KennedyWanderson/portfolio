@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="lg:flex hidden flex-1 items-center justify-center font-normal">
                 <div className="flex-grow-10">
                     <ul className="lg:flex hidden gap-8 mr-32 hover:cursor-grab">
-                        <Link href="#" >
+                        <Link href="#" onClick={() => window.location.reload()}>
                             <li className="hover:text-orange-500">Home</li>
                         </Link>
                         <Link spy={true} to='About' smooth={true}>
@@ -23,9 +23,13 @@ const Navbar = () => {
                         </Link>
                     </ul>
                 </div>
-                <Link spy={true} to='Contact' smooth={true} className=" rounded-3xl border-none text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
-                hover:cursor-grab bg-white hover:text-orange-500
-                ">Contact</Link>
+                <ul>
+                    <Link>
+                    </Link>
+                    <li href="Contact" className=" rounded-3xl border-none text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
+                    hover:cursor-grab bg-white hover:text-orange-500
+                    ">Contact</li>
+                </ul>
             </div>
         </div>
     );

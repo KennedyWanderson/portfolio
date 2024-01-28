@@ -9,7 +9,7 @@ const Card = ({ emoji, heading, detail }) => {
             <span>{heading}</span>
             <div className="images-container flex justify-center flex-wrap">
                 {detail.map((img, index) => (
-                    <img key={index} className="flex text-red-500 text-base w-11 mb-2" src={img} alt={` ${index + 1 }`} />
+                    <img key={index} className="flex text-red-500 text-base w-11 mb-2" src={img} alt={`Image ${index + 1 }`} />
                 ))}
             </div>
         </div>

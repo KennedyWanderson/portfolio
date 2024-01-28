@@ -27,8 +27,11 @@ const About = () => {
                     <span>Frontend Developer with high level of experience
                         in web development, producting the Quality work                   </span>
                 </div>
-                <a href="https://www.linkedin.com/in/kennedy-wanderson/" className="rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
-                hover:cursor-grab bg-white hover:text-orange-500 w-28 h-8 flex justify-center items-center">Hire me</a>
+                <a>
+                    <button className="rounded-3xl	border-none	text-white text-base pt-3 p-3 pr-6 pl-6 bg-gradient-to-r from-violet-500 to-fuchsia-500
+
+                </a>
+                hover:cursor-grab bg-white hover:text-orange-500 w-28 h-8 flex justify-center items-center">Hire me</button>
                 <div className="mt-6 flex gap-7 hover:cursor-grab left">
                     <a href="https://github.com/KennedyWanderson">
                         <img src={Github} alt="" />

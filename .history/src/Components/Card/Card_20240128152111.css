@@ -1,0 +1,7 @@
+@media screen and (max-width: 4780px){
+    .card{
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+}

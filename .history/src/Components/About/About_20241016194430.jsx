@@ -19,8 +19,8 @@ const About = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="lg:flex lg:flex-row flex-col h-[77vh] about">
-            <div className="flex flex-col justify-center relative flex-1 gap-8">
+        <div className="lg:flex lg:flex-row flex-col h-[77vh] my-20 about">
+            <div className="flex flex-col relative flex-1 gap-8">
                 <div className="flex flex-col ">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-5xl">Hi! I am</span>
                     <span className="text-violet-500 font-bold text-5xl">Kennedy Wanderson</span>
@@ -41,7 +41,7 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            <div className="flex flex-col justify-center w-6/12">
+            <div className="w-50">
 
                 <img className="rounded-full " src={Profile} alt="" />
                 {/* <motion.img

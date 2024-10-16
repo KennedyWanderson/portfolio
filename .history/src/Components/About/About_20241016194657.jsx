@@ -41,7 +41,7 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            <div className="flex flex-col justify-center w-6/12">
+            <div className="flex justify-center w-6/12">
 
                 <img className="rounded-full " src={Profile} alt="" />
                 {/* <motion.img

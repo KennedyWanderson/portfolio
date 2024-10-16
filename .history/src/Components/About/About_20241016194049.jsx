@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Github from '../../img/github.png'
 import Instagram from '../../img/instagram.png'
 import Linkedin from '../../img/linkedin.png'
-import Profile from '../../img/eu.jpeg'
+import Profile from '../../img/eu.'
 import './About.css'
 import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
@@ -19,8 +19,8 @@ const About = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="lg:flex lg:flex-row flex-col h-[77vh] about">
-            <div className="flex flex-col justify-center relative flex-1 gap-8">
+        <div className="lg:flex lg:flex-row flex-col h-[77vh] my-20 about">
+            <div className="flex flex-col relative flex-1 gap-8">
                 <div className="flex flex-col ">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-5xl">Hi! I am</span>
                     <span className="text-violet-500 font-bold text-5xl">Kennedy Wanderson</span>
@@ -41,14 +41,15 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            <div className="flex flex-col justify-center w-6/12">
-
-                <img className="rounded-full " src={Profile} alt="" />
-                {/* <motion.img
+            <div className="i-right">
+                <img src={Vector1} alt="" />
+                <img src={Vector2} alt="" />
+                <img className="rounded-full" src={Profile} alt="" />
+                <motion.img
                 initial={{left: '-46%'}}
                 whileInView={{left: '-14%'}}
                 transition={transition}
-                src={glassesemoji} alt="" /> */}
+                src={glassesemoji} alt="" />
             </div>
         </div>
     )

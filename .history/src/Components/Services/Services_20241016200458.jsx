@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import HeartEmoji from '../../img/heartemoji.png'
 import Card from "../Card/Card";
-import Resume from './KENNEDYPRADO.pdf'
+import Resume from './Kennedy '
 import './Services.css'
 import { themeContext } from "../../Context";
 import JavaImg from '../../img/js.jpg'

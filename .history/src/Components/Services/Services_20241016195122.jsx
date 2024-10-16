@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import HeartEmoji from '../../img/heartemoji.png'
 import Card from "../Card/Card";
-import Resume from './KENNEDYPRADO.pdf'
+import Resume from './Kennedy_CV.pdf'
 import './Services.css'
 import { themeContext } from "../../Context";
 import JavaImg from '../../img/js.jpg'
@@ -20,8 +20,8 @@ const Services = () => {
 
     return (
 
-        <div className="flex m-20 services" id="About">
-            <div className="flex flex-col justify-center relative ">
+        <div className="pt-10 pb-12 flex h-[90vh] mt-20 services" id="About">
+            <div className="flex flex-col justify-center relative mt-10">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My </span>
                 <span className="text-violet-500 font-bold text-5xl">Skills</span>
                 <spane style={{ color: darkMode ? 'white' : '' }} className="text-gray-600 text-sm mt-4">Analyst and Developer with experience in programming, development of web systems. 
@@ -34,7 +34,7 @@ const Services = () => {
                     hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
                 </a>
             </div>
-            {/* <div className="flex flex-col justify-center relative cards">
+            <div className="flex justirelative cards">
                 <div style={{ color: darkMode ? 'black' : '' }} className="left-56 absolute">
                     <Card
                         emoji={HeartEmoji}
@@ -43,7 +43,8 @@ const Services = () => {
                         
                     />
                 </div>
-            </div> */}
+
+            </div>
         </div>
     )
 }

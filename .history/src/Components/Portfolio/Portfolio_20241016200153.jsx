@@ -12,7 +12,7 @@ const Portfolio = () => {
     const darkMode = theme.state.darkMode;
 
     return(
-        <div className="flex flex-col items-center justify-center m-20" id="Projects">
+        <div className="flex flex-col items-center justify-center mb-10" id="Projects">
             <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-4xl">My projects</span>
 
 

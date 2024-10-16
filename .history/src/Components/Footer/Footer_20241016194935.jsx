@@ -9,7 +9,7 @@ const Footer = () => {
         <div className=" flex items-center mt-[-0.5rem] mb-[-3.5rem] relative">
             <img src={Wave} alt="" className="w-full h-52"/>
             <div className=" flex flex-col items-center justify-center absolute w-full mt-16 gap-8  text-white">
-                <span className="">kennedywprado@gmail.com</span>
+                <span className="">kennedywprado</span>
                 <div className="flex gap-8">
                     <a href="https://www.instagram.com/_dev.kennedy/">
                         <Insta color='white' size='3rem' />

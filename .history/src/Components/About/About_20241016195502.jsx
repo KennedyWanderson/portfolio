@@ -20,7 +20,7 @@ const About = () => {
 
     return (
         <div className="lg:flex lg:flex-row flex-col h-[77vh] about">
-            <div className="flex flex-col justify-center relative flex-1 gap-8">
+            <div className="flex flex-col justify-center relative flex-1 gap-">
                 <div className="flex flex-col ">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-5xl">Hi! I am</span>
                     <span className="text-violet-500 font-bold text-5xl">Kennedy Wanderson</span>

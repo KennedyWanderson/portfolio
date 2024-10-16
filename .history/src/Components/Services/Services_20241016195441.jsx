@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import HeartEmoji from '../../img/heartemoji.png'
 import Card from "../Card/Card";
-import Resume from './KENNEDYPRADO.pdf'
+import Resume from './Kennedy_CV.pdf'
 import './Services.css'
 import { themeContext } from "../../Context";
 import JavaImg from '../../img/js.jpg'
@@ -20,8 +20,8 @@ const Services = () => {
 
     return (
 
-        <div className="flex m-20 services" id="About">
-            <div className="flex flex-col justify-center relative ">
+        <div className=" flex h-full  services" id="About">
+            <div className="flex = justify-center relative ">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My </span>
                 <span className="text-violet-500 font-bold text-5xl">Skills</span>
                 <spane style={{ color: darkMode ? 'white' : '' }} className="text-gray-600 text-sm mt-4">Analyst and Developer with experience in programming, development of web systems. 

@@ -5,8 +5,8 @@ import Linkedin from '../../img/linkedin.png'
 import Profile from '../../img/eu.jpeg'
 import './About.css'
 import { themeContext } from "../../Context";
-
-
+import {motion} from 'framer-motion'
+import glassesemoji from '../../img/glassesimoji.png'
 
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="lg:flex lg:flex-row flex-col mb-10 about">
+        <div className="lg:flex lg:flex-row flex-col h-[77vh] about">
             <div className="flex flex-col justify-center relative flex-1 gap-8">
                 <div className="flex flex-col ">
                     <span style={{color: darkMode? 'white': ''}} className="text-black font-bold text-5xl">Hi! I am</span>

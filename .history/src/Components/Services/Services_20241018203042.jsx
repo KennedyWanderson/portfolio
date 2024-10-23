@@ -10,7 +10,7 @@ const Services = () => {
 
     return (
 
-        <div className="flex justify-center m-20" id="About">
+        <div className="flex m-20 services" id="About">
             <div className="flex flex-col justify-center relative ">
                 <span style={{ color: darkMode ? 'white' : '' }} className="text-black text-4xl font-bold">My </span>
                 <span className="text-violet-500 font-bold text-5xl">Skills</span>
@@ -24,7 +24,7 @@ const Services = () => {
                     hover:cursor-grab bg-white hover:text-orange-500 w-36 mt-4">Download CV</button>
                 </a>
             </div>
-            {/* <div className="flex flex-col justify-center relative cards">
+            <div className="flex flex-col justify-center relative cards">
                 <div style={{ color: darkMode ? 'black' : '' }} className="left-56 absolute">
                     <Card
                         emoji={HeartEmoji}
@@ -33,7 +33,7 @@ const Services = () => {
                         
                     />
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
